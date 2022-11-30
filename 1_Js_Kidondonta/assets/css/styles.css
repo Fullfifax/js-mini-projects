@@ -5,10 +5,10 @@
 .drum-container {
     margin-left: 18em;
 }
-
+  
 .keys {
     align-items: center;
-    display: flex;
+    display: flex; 
     flex: 1;
     justify-content: center;
 }
@@ -27,7 +27,7 @@
 .key-g, .key-h,
 .key-j, .key-k,
 .key-l {
-    position: fixed;
+    position: fixed; 
 }
 
 .key-d {
@@ -58,8 +58,10 @@
 .key-h {
     top: 2em;
     left: 46em;
+}.drum-container {
+    margin-left: 18em;
 }
-
+ 
 .key-j {
     top: 9em;
     left: 50em;
@@ -80,7 +82,7 @@ kbd {
     font-size: 2em;
 }
   
-.sound {
+.sound { 
     background-color: gray;
     color: white;
     padding: 2px;
@@ -91,4 +93,122 @@ kbd {
     border-color: white;
     box-shadow: 0 0 1rem white;
     transform: scale(1.1); 
+}
+
+footer {
+    margin-top: 1.5em;
+    text-align: center;
+}
+
+/* For desktop */
+@media (width <= 1200px) {
+    .drum-container {
+        margin-left: 15%;
+    }
+    .key-d {
+        top: 11em;
+        left: 25em;
+    }
+    
+    .key-a {
+        top: 11em;
+        left: 46em;
+    }
+    
+    .key-f {
+        top: 5em;
+        left: 15.5em;
+    } 
+
+    .key-s {
+        top: 0.8em;
+        left: 49em;
+    }
+    
+    .key-g {
+        top: 18em;
+        left: 30.5em;
+    }
+    
+    .key-h {
+        top: 2em;
+        left: 37em;
+    }
+    
+    .key-j {
+        top: 9em;
+        left: 41em;
+    }
+    
+    .key-k {
+        top: 4em;
+        left: 26em;
+    }
+    
+    .key-l {
+        top: 12em;
+        left: 13em;
+    }
+}
+
+/* For laptop */
+@media (width <= 920px) {
+    .drum-container {
+        margin-left: 10%;
+    }
+    .key-d {
+        top: 11em;
+        left: 20em;
+    }
+    
+    .key-a {
+        top: 11em;
+        left: 42em;
+    }
+    
+    .key-f {
+        top: 5em;
+        left: 11.5em;
+    }
+
+    .key-s {
+        top: 0.8em;
+        left: 45em;
+    }
+    
+    .key-g {
+        top: 18em;
+        left: 26.5em;
+    }
+    
+    .key-h {
+        top: 2em;
+        left: 33em;
+    }
+    
+    .key-j { 
+        top: 9em;
+        left: 37em;
+    }
+    
+    .key-k {
+        top: 4em;
+        left: 22em;
+    }
+    
+    .key-l {
+        top: 12em;
+        left: 10em;
+    }
+}
+
+/* Drum Not supported */
+@media (width <= 820px) {
+    .keys, .drum-container {
+        display: none;
+    }
+    body::after {
+        content: 'Sorry the drum is not supported by a small device';
+        font-size: 2em;
+    }
 }
