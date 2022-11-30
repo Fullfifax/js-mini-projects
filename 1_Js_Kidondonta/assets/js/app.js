@@ -12,7 +12,7 @@ function playSound(e) {
     if(!audio) return;
 
     key.classList.add('playing');
-    audio.currentTime = 0
+    audio.currentTime = 0;
     audio.play();
 }
 
