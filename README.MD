@@ -1,4 +1,4 @@
 ### Kidondonta
 Kidondonta is a drum kits using keyboard to make sounds.
 
-https://github.com/Fullfifax/js-mini-projects/tree/main/1_Js_Kidondonta/assets/kidondonta.png?raw=true
+<img src="1_Js_Kidondonta/assets/png/kidondonta.png" alt="Kidondonta picture" title="Kidondonta picture">
