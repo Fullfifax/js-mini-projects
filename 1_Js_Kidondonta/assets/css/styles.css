@@ -1,0 +1,94 @@
+.drum-container img {
+    width: 750px;
+}
+
+.drum-container {
+    margin-left: 18em;
+}
+
+.keys {
+    align-items: center;
+    display: flex;
+    flex: 1;
+    justify-content: center;
+}
+  
+.key {
+    background: rgba(0,0,0,0.4);
+    border-radius: .5rem;
+    color: white;
+    padding: 12px 16px;
+    text-align: center;
+    transition: all .07s ease;
+}
+
+.key-d, .key-a,
+.key-f, .key-s,
+.key-g, .key-h,
+.key-j, .key-k,
+.key-l {
+    position: fixed;
+}
+
+.key-d {
+    top: 11em;
+    left: 34em;
+}
+
+.key-a {
+    top: 11em;
+    left: 55em;
+}
+
+.key-f {
+    top: 5em;
+    left: 24.5em;
+}
+
+.key-s {
+    top: 0.8em;
+    left: 58em;
+}
+
+.key-g {
+    top: 18em;
+    left: 39.5em;
+}
+
+.key-h {
+    top: 2em;
+    left: 46em;
+}
+
+.key-j {
+    top: 9em;
+    left: 50em;
+}
+
+.key-k {
+    top: 4em;
+    left: 35em;
+}
+
+.key-l {
+    top: 12em;
+    left: 22em;
+}
+  
+kbd {
+    display: block;
+    font-size: 2em;
+}
+  
+.sound {
+    background-color: gray;
+    color: white;
+    padding: 2px;
+    text-transform: capitalize;
+}
+  
+.playing {
+    border-color: white;
+    box-shadow: 0 0 1rem white;
+    transform: scale(1.1); 
+}
