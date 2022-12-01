@@ -1,0 +1,27 @@
+.clock {
+    border: 1px solid rgb(217, 255, 80);
+    border-radius: 50%;
+    display: flex;
+    height: 20em;
+    position: relative;
+    width: 20em;
+}
+
+.clock-content {
+    background-color: rgb(236, 221, 84);
+    border-radius: 50%;
+    height: 100%;
+    position: relative;
+    width: 100%;
+}
+
+.needle {
+    background: gray;
+    height: 6px;
+    position: absolute;
+    top: 50%;
+    transform: rotate(90deg);
+    transform-origin: 100%;
+    transition: all 0.05s;
+    width: 50%;
+}
