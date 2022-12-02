@@ -7,13 +7,16 @@
     --door-background: blue;
 }
 
-
 body {
     background: var(--body-background);
     height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+h1, ul li {
+    color: white;
 }
   
 .container {
