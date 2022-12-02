@@ -1,9 +1,9 @@
 :root {
     --body-background: #ffc600;
-    --roof-background: blue;
+    --roof-background: #0000ff;
     --roof-angle-color: blue;
-    --window-background: rgb(70, 138, 170);
-    --window-border-color: blue;
+    --window-background: #468aaa;
+    --window-border-color: #0000ff;
     --door-background: blue;
 }
 
