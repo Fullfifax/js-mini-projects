@@ -1,6 +1,15 @@
+:root {
+    --body-background: #ffc600;
+    --roof-background: blue;
+    --roof-angle-color: blue;
+    --window-background: rgb(70, 138, 170);
+    --window-border-color: blue;
+    --door-background: blue;
+}
+
 
 body {
-    background: #ffdd59;
+    background: var(--body-background);
     height: 100vh;
     display: flex;
     align-items: center;
@@ -34,10 +43,10 @@ body {
     left: 33px;
     height: 183px;
     width: 183.5px;
-    background: rgb(37, 49, 214);
+    background: var(--roof-background);
     transform: rotate(45deg);
-    border-top: 10px solid blue;
-    border-left: 10px solid blue;
+    border-top: 10px solid var(--roof-angle-color);
+    border-left: 10px solid var(--roof-angle-color);
     z-index: -1;
 }
 
@@ -47,9 +56,9 @@ body {
     left: 25px;
     height: 80px;
     width: 70px;
-    background: #08a2df;
+    background: var(--window-background);
     z-index: 3;
-    border-top: 7px solid blue;
+    border-top: 7px solid var(--window-border-color);
 }
 
 /* the door */  
@@ -58,7 +67,7 @@ body {
     left: 150px;
     height: 130px;
     width: 70px;
-    background: blue;
+    background: var(--door-background);
     z-index: 3;
 }
   
